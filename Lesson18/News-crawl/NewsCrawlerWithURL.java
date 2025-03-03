@@ -24,7 +24,7 @@ public class NewsCrawlerWithURL {
 
             System.out.println("Danh sách tin tức mới nhất:");
             while (matcher.find()) {
-                String title = matcher.group(1); 
+                String title = matcher.group(1);
                 System.out.println("- " + title);
             }
 
